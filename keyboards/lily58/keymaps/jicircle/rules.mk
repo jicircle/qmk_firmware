@@ -1,3 +1,5 @@
+BOOTLOADER = caterina
+
 MAGIC_ENABLE = yes			# Save space by not PROCESS_MAGIC, which is bootmagic with out the boot (+634)
 LTO_ENABLE = yes			# Save space by link time optimization
 
