@@ -3,6 +3,7 @@ BOOTLOADER = caterina
 MAGIC_ENABLE = yes			# Save space by not PROCESS_MAGIC, which is bootmagic with out the boot (+634)
 LTO_ENABLE = yes			# Save space by link time optimization
 
+MOUSEKEY_ENABLE = yes			# Mouse keys (+1482). Not required for trackball usage.
 EXTRAKEY_ENABLE = yes			# Audio control and System control (+450)
 NKRO_ENABLE = yes			# 6KRO by default. NKRO works if enabled (+328)
 COMBO_ENABLE = no			# Tap combo chording (+952)
