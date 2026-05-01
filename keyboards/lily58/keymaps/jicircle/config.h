@@ -4,7 +4,7 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
 
-#define DEBOUNCE 3 //Default is 5
+#define DEBOUNCE 5 //Default is 5
 
 #ifdef NKRO_ENABLE
 	#define FORCE_NKRO //Force NKRO if enabled.
